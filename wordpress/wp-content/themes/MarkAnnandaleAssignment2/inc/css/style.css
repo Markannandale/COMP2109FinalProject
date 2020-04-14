@@ -1,0 +1,157 @@
+#masthead {
+    padding: 1px 0;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(9, 101, 155);
+}
+  
+header li {
+    float: left;
+    text-decoration: #fff;
+}
+  
+header li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #fff;
+}
+
+header li a:hover, footer li a:hover {
+    background-color: rgb(46, 46, 46);
+}
+
+header li a:link, footer li a:link {
+    color: #fff;
+}
+
+header li a:active, footer li a:active {
+    color: #fff;
+}
+
+header li a:visited, footer li a:visited {
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    background-color: rgba(170, 170, 170, 0.425);
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.display-posts h3 {
+    background-color: rgb(9, 101, 155);
+    background-image: linear-gradient(to top, rgb(9, 138, 155) 45%, rgb(9, 101, 155));
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.display-posts li div:first-of-type {
+    font-size: 160%;
+    font-weight: bold;
+    color: #000;
+}
+
+p, li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-height: 200px;
+    width: 200px;
+}
+
+.entry-content-page {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.shortcode-example {
+    padding: 5px 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(184, 184, 184);
+}
+
+.the-page-content {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 70%;
+    padding: 5px 15px;
+    background-color: rgba(202, 202, 202, 0.63);
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.post p:nth-of-type(2), .post p:nth-of-type(3) {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.display-posts {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 40%;
+}
+
+.display-posts li {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 20px 30px 10px 30px;
+    background-image: linear-gradient(to bottom right, rgb(202, 201, 201) 5%, rgb(248, 248, 248));
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.display-posts li {
+    list-style-type: none;
+}
+
+.display-posts a {
+    color: #000;
+}
+
+.game-content {
+    overflow: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.game-content img {
+    float: left;
+    margin-right: 20px;
+}
+
+.post p:nth-of-type(2), .post p:nth-of-type(3), .post p:nth-of-type(4) {
+    display: inline;
+    font-size: 75%;
+    margin-right: 10px;
+}
+
+.site-footer {
+    background-color: rgb(59, 59, 59);
+}
